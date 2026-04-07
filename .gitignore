@@ -1,6 +1,11 @@
 # Nested legacy project (separate git checkout; breaks `git add` in this repo)
 FB Page Manager/
 
+# Runtime locks (bridge / continuous runner)
+.run_continuous_image_posts.lock
+.cursor_inbound_auto_bridge.lock
+.cursor_inbound_watcher.lock
+
 # Secrets
 .env
 config.json

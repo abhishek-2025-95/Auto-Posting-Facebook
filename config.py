@@ -323,8 +323,12 @@ CURSOR_PROMPT_READY_NOTIFY_CMD = os.environ.get("CURSOR_PROMPT_READY_NOTIFY_CMD"
 # Cursor Background Agents API (optional — see scripts/cursor_inbound_auto_bridge.py). Key: Cursor Dashboard → Integrations.
 CURSOR_API_KEY = os.environ.get("CURSOR_API_KEY", "").strip()
 CURSOR_BACKGROUND_AGENT_REPO = os.environ.get("CURSOR_BACKGROUND_AGENT_REPO", "").strip()
-_bg_ref = os.environ.get("CURSOR_BACKGROUND_AGENT_REF", "main").strip()
-CURSOR_BACKGROUND_AGENT_REF = _bg_ref or "main"
+# Unset → "main". Explicit empty string in .env → omit ``ref`` in Background Agents API (use GitHub default branch).
+_raw_bg_ref = os.environ.get("CURSOR_BACKGROUND_AGENT_REF")
+if _raw_bg_ref is None:
+    CURSOR_BACKGROUND_AGENT_REF = "main"
+else:
+    CURSOR_BACKGROUND_AGENT_REF = _raw_bg_ref.strip()
 _bga = os.environ.get("CURSOR_BACKGROUND_AGENT_AUTO", "").strip().lower()
 CURSOR_BACKGROUND_AGENT_AUTO = _bga in ("1", "true", "yes", "on")
 # In-image headline safe zone for Cursor image tool prompts: symmetric horizontal inset as % of frame width (5–15).

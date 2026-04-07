@@ -258,10 +258,10 @@ def _download_raw(url: str, dest: Path, timeout: int = 60) -> bool:
 
 
 def _launch_agent(api_key: str, repo: str, ref: str, prompt_text: str) -> str:
-    body = {
-        "prompt": {"text": prompt_text},
-        "source": {"repository": repo, "ref": ref},
-    }
+    source: dict = {"repository": repo}
+    if (ref or "").strip():
+        source["ref"] = ref.strip()
+    body = {"prompt": {"text": prompt_text}, "source": source}
     data = _api_request("POST", "/v0/agents", api_key, body, timeout=120)
     aid = data.get("id") or data.get("agentId")
     if not aid:
@@ -383,7 +383,8 @@ def main() -> int:
         )
     except ImportError:
         CURSOR_API_KEY = os.environ.get("CURSOR_API_KEY", "").strip()
-        CURSOR_BACKGROUND_AGENT_REF = os.environ.get("CURSOR_BACKGROUND_AGENT_REF", "main").strip() or "main"
+        _r = os.environ.get("CURSOR_BACKGROUND_AGENT_REF")
+        CURSOR_BACKGROUND_AGENT_REF = "main" if _r is None else _r.strip()
         CURSOR_POST_IMAGE_INBOUND = str(_BASE / "cursor_post_image.png")
         CURSOR_POST_IMAGE_PROMPT_PATH = str(_BASE / "CURSOR_POST_IMAGE_PROMPT.txt")
 
@@ -392,9 +393,14 @@ def main() -> int:
     default_inbound = Path(CURSOR_POST_IMAGE_INBOUND).resolve()
     poll = _poll_seconds()
 
+    _ref_note = (
+        "(omit → GitHub default)"
+        if not (CURSOR_BACKGROUND_AGENT_REF or "").strip()
+        else repr((CURSOR_BACKGROUND_AGENT_REF or "").strip())
+    )
     print(
-        f"[cursor_inbound_auto_bridge] mode={mode} poll={poll}s\n  prompt={prompt_path}\n"
-        f"  default_inbound={default_inbound}\n  Ctrl+C to stop.",
+        f"[cursor_inbound_auto_bridge] mode={mode} poll={poll}s  api_ref={_ref_note}\n"
+        f"  prompt={prompt_path}\n  default_inbound={default_inbound}\n  Ctrl+C to stop.",
         flush=True,
     )
 
@@ -483,7 +489,21 @@ def main() -> int:
                             flush=True,
                         )
                 except Exception as e:
+                    err = str(e)
                     print(f"[cursor_inbound_auto_bridge] ERROR: {e}", flush=True)
+                    if (
+                        "Failed to verify existence of branch" in err
+                        or "branch name is correct" in err
+                        or "Failed to determine repository default branch" in err
+                    ):
+                        print(
+                            "[cursor_inbound_auto_bridge] Cursor cannot read this GitHub repo over the API. "
+                            "Fix: https://cursor.com/dashboard → Integrations (or Cloud Agents) → GitHub → "
+                            "authorize the Cursor GitHub App for the **same GitHub account that owns** "
+                            "CURSOR_BACKGROUND_AGENT_REPO in .env, and allow access to that repository. "
+                            "Then restart this bridge.",
+                            flush=True,
+                        )
                 last_sig = sig
                 time.sleep(poll)
                 continue
