@@ -4,13 +4,13 @@ $ErrorActionPreference = "Stop"
 $root = Resolve-Path (Join-Path $PSScriptRoot "..")
 Set-Location $root
 
-$pixelUrl = "https://github.com/abhishekchd664-pixel/Auto-Posting-Facebook"
+$pixelUrl = "https://github.com/abhishekchd664-pixel/Auto-Posting"
 git push -u pixel main
 if ($LASTEXITCODE -ne 0) {
     Write-Host ""
     Write-Host "Push to 'pixel' failed (repo missing or wrong GitHub login)." -ForegroundColor Yellow
     Write-Host "1) Log in as abhishekchd664-pixel in the browser, then either:" -ForegroundColor Gray
-    Write-Host "   Import: $pixelUrl (use Import from abhishek-2025-95/Auto-Posting-Facebook)" -ForegroundColor Gray
+    Write-Host "   Import into $pixelUrl from https://github.com/abhishek-2025-95/Auto-Posting-Facebook (main)" -ForegroundColor Gray
     Write-Host "   Or new empty repo: $pixelUrl" -ForegroundColor Gray
     Write-Host "2) gh auth login  (choose pixel account) OR use a PAT for git push" -ForegroundColor Gray
     Write-Host "3) Re-run: powershell -ExecutionPolicy Bypass -File scripts\finish_pixel_github_mirror.ps1" -ForegroundColor Gray

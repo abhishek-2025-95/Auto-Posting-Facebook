@@ -2,7 +2,7 @@
 #   https://github.com/new/import
 # and import from https://github.com/abhishek-2025-95/Auto-Posting-Facebook (main).
 #
-# Option B — Empty repo: create https://github.com/abhishekchd664-pixel/Auto-Posting-Facebook
+# Option B — Empty repo: create https://github.com/abhishekchd664-pixel/Auto-Posting
 # with no README, then run this script to push from your PC (needs pixel Git credentials).
 #
 # From project root:
