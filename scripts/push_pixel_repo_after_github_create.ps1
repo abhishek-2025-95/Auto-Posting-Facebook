@@ -9,9 +9,9 @@
 #   powershell -ExecutionPolicy Bypass -File scripts\push_pixel_repo_after_github_create.ps1
 $ErrorActionPreference = "Stop"
 Set-Location (Join-Path $PSScriptRoot "..")
-git push -u origin main
+git push -u pixel main
 if ($LASTEXITCODE -ne 0) {
-    Write-Host "Push failed. Use GitHub credentials for abhishekchd664-pixel (PAT or gh auth login)." -ForegroundColor Yellow
+    Write-Host "Push failed. Create empty repo on pixel account, then gh auth login as pixel (or PAT)." -ForegroundColor Yellow
     exit $LASTEXITCODE
 }
 Write-Host "Done. Set Cursor Cloud Agents GitHub app on this repo if you use the API bridge." -ForegroundColor Green
