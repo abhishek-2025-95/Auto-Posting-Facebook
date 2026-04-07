@@ -7,8 +7,10 @@ Set-Location $root
 $want = "abhishekchd664-pixel"
 $login = (gh api user -q .login 2>$null).Trim()
 if ($login -ne $want) {
-    Write-Host "Current gh user: '$login'. Switch to pixel first:" -ForegroundColor Yellow
-    Write-Host "  gh auth login" -ForegroundColor Gray
+    Write-Host "Current gh user: '$login'. Use abhishekchd664-pixel for this script:" -ForegroundColor Yellow
+    Write-Host "  1) gh auth login          # browser login as abhishekchd664-pixel (adds account if needed)" -ForegroundColor Gray
+    Write-Host "  2) gh auth switch -u abhishekchd664-pixel" -ForegroundColor Gray
+    Write-Host "  3) gh auth status         # confirm active user" -ForegroundColor Gray
     Write-Host "Then re-run: powershell -ExecutionPolicy Bypass -File scripts\gh_create_pixel_repo_and_push.ps1" -ForegroundColor Gray
     exit 1
 }
