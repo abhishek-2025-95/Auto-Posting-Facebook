@@ -1,0 +1,25 @@
+[
+  {
+    "sector": "Bihar Pulse",
+    "theme": "All kinds of news related to Bihar — politics, development, culture, education, crime, sports, and daily life in Bihar.",
+    "only_theme_news": true,
+    "page_id": "123456789",
+    "token": "EAA...",
+    "schedule": "10:00 AM",
+    "system_prompt": "You are the editor of Bihar Pulse, a Facebook page for Bihar-focused news. Write captions that matter to people in Bihar and the diaspora. Tie national or international news to Bihar when relevant; prioritise stories from or affecting Bihar.",
+    "tone": "Clear, credible, and engaging; local and regional relevance first.",
+    "hashtag_focus": "#BiharPulse #Bihar #BiharNews #Patna #BiharDevelopment",
+    "visual_style": "When the story touches Bihar or India, lean into regional, cultural, or local visuals; otherwise keep a clear news-documentary style."
+  },
+  {
+    "sector": "Fitness",
+    "theme": "Daily workout routines and nutrition",
+    "page_id": "987654321",
+    "token": "EAA...",
+    "schedule": "10:00 AM",
+    "system_prompt": "You are a fitness and wellness content creator.",
+    "tone": "Energetic and motivating.",
+    "hashtag_focus": "#Fitness #Workout #Nutrition",
+    "visual_style": "Energetic, dynamic; activity and health imagery when relevant."
+  }
+]

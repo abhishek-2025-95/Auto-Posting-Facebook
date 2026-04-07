@@ -1,0 +1,24 @@
+{
+  "headline": "The Gilded Cage: Built on Your Back.",
+  "subtext": "The invisible chains of economic injustice bind us all. See the unseen, demand liberation.",
+  "theme": "Systemic Oppression",
+  "style_description": "A stark, dystopian neo-noir aesthetic. High-contrast, gritty realism infused with surreal, symbolic elements. Emphasize deep shadows, oppressive scale, and a cold, almost metallic sheen on elite structures, juxtaposed with the organic decay and digital 'glitch' of the struggling masses. The mood is confrontational and bleak, yet infused with an angry urgency.",
+  "primary_color_hex": "#E70000",
+  "visual_concept": "Imagine a vast, perpetually twilight landscape. In the foreground, a sprawling, decaying urban labyrinth of identical, cramped, brutalist housing blocks, almost submerged in perpetual shadow and grime. Digital glitch artifacts subtly ripple across these structures and the indistinct, faceless figures inhabiting them, representing wage stagnation and data exploitation. Dominating the distant horizon is a single, impossibly tall, skeletal skyscraper, impossibly slender, its upper echelons gleaming with a cold, metallic gold, piercing the oppressive, smog-filled sky. This tower is subtly revealed to be formed from the interwoven, upward-stretching hands of countless struggling figures, their faces unseen, providing its foundation. A broken, empty piggy bank lies in the immediate foreground, catching a sickly, artificial light.",
+  "background_elements": [
+    "Impossibly tall, skeletal corporate skyscraper (cold gold/metallic)",
+    "Sprawling, decaying brutalist housing blocks",
+    "Indistinct, faceless silhouetted figures (forming tower base, inhabiting blocks)",
+    "Digital glitch artifacts/corrupted data lines",
+    "Perpetual twilight/smog-filled sky",
+    "Broken, empty piggy bank"
+  ],
+  "color_palette": "Dominant deep charcoals, oppressive concrete grays, desaturated cool blues for the sky/distance, contrasted with cold, sharp metallic gold/bronze for the elite structure. Subtle highlights of sickly green or muted crimson (from digital glitches) within the decay. Overall desaturated with minimal, stark color accents.",
+  "mood_keywords": [
+    "Outraged",
+    "Bleak",
+    "Urgent",
+    "Confrontational",
+    "Resentful"
+  ]
+}

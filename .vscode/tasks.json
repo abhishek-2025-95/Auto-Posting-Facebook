@@ -1,0 +1,76 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Facebook: Open external terminal (continuous posting)",
+      "type": "shell",
+      "command": "call run_local.cmd",
+      "options": {
+        "cwd": "${workspaceFolder}",
+        "shell": {
+          "executable": "cmd.exe",
+          "args": ["/d", "/c"]
+        }
+      },
+      "problemMatcher": [],
+      "presentation": { "reveal": "silent", "panel": "shared" },
+      "runOptions": { "instanceLimit": 2 }
+    },
+    {
+      "label": "Facebook: Check Page token + connection",
+      "type": "shell",
+      "command": "\"${workspaceFolder}\\.venv\\Scripts\\python.exe\" check_page_token_comments.py",
+      "options": {
+        "cwd": "${workspaceFolder}",
+        "shell": {
+          "executable": "cmd.exe",
+          "args": ["/d", "/c"]
+        }
+      },
+      "problemMatcher": [],
+      "presentation": { "reveal": "always", "panel": "shared" }
+    },
+    {
+      "label": "Facebook: Posting schedule self-check",
+      "type": "shell",
+      "command": "\"${workspaceFolder}\\.venv\\Scripts\\python.exe\" tests\\test_posting_schedule.py",
+      "options": {
+        "cwd": "${workspaceFolder}",
+        "shell": {
+          "executable": "cmd.exe",
+          "args": ["/d", "/c"]
+        }
+      },
+      "problemMatcher": [],
+      "presentation": { "reveal": "always", "panel": "shared" }
+    },
+    {
+      "label": "Facebook: US/EU markets news filter check",
+      "type": "shell",
+      "command": "\"${workspaceFolder}\\.venv\\Scripts\\python.exe\" tests\\test_news_markets_filter.py",
+      "options": {
+        "cwd": "${workspaceFolder}",
+        "shell": {
+          "executable": "cmd.exe",
+          "args": ["/d", "/c"]
+        }
+      },
+      "problemMatcher": [],
+      "presentation": { "reveal": "always", "panel": "shared" }
+    },
+    {
+      "label": "Facebook: Full verify (compile + tests + Task Scheduler)",
+      "type": "shell",
+      "command": "call verify_setup.cmd",
+      "options": {
+        "cwd": "${workspaceFolder}",
+        "shell": {
+          "executable": "cmd.exe",
+          "args": ["/d", "/c"]
+        }
+      },
+      "problemMatcher": [],
+      "presentation": { "reveal": "always", "panel": "shared" }
+    }
+  ]
+}

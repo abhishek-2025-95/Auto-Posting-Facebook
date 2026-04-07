@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Import: Task Scheduler -> Action -> Import Task...
+  Then set the trigger time to 6:45 AM in YOUR local time (see TASK_SCHEDULER_645_ET.md).
+  Paths assume: C:\Users\user\Documents\Auto Posting Facebook
+-->
+<Task version="1.4" xmlns="http://schemas.microsoft.com/windows/2004/02/mit/task">
+  <RegistrationInfo>
+    <Description>Runs launch_continuous_posts_daily.cmd: stops prior posting process, then opens external CMD so run_continuous_posts.py always loads latest project files. Edit trigger for your timezone vs ET.</Description>
+  </RegistrationInfo>
+  <Triggers>
+    <CalendarTrigger>
+      <StartBoundary>2026-01-01T06:45:00</StartBoundary>
+      <Enabled>true</Enabled>
+      <ScheduleByDay>
+        <DaysInterval>1</DaysInterval>
+      </ScheduleByDay>
+    </CalendarTrigger>
+  </Triggers>
+  <Principals>
+    <Principal id="Author">
+      <LogonType>InteractiveToken</LogonType>
+      <RunLevel>LeastPrivilege</RunLevel>
+    </Principal>
+  </Principals>
+  <Settings>
+    <MultipleInstancesPolicy>StopExisting</MultipleInstancesPolicy>
+    <DisallowStartIfOnBatteries>false</DisallowStartIfOnBatteries>
+    <StopIfGoingOnBatteries>false</StopIfGoingOnBatteries>
+    <AllowHardTerminate>true</AllowHardTerminate>
+    <StartWhenAvailable>true</StartWhenAvailable>
+    <RunOnlyIfNetworkAvailable>false</RunOnlyIfNetworkAvailable>
+  </Settings>
+  <Actions Context="Author">
+    <Exec>
+      <Command>C:\Users\user\Documents\Auto Posting Facebook\launch_continuous_posts_daily.cmd</Command>
+      <WorkingDirectory>C:\Users\user\Documents\Auto Posting Facebook</WorkingDirectory>
+    </Exec>
+  </Actions>
+</Task>

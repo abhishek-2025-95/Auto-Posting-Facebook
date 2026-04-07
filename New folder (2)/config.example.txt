@@ -1,0 +1,7 @@
+# API Configuration
+# Copy this file to config.txt and add your Gemini API key
+# Or set the GEMINI_API_KEY environment variable instead
+# Image generation uses free APIs (no additional key needed)
+
+GEMINI_API_KEY=your-gemini-api-key-here
+

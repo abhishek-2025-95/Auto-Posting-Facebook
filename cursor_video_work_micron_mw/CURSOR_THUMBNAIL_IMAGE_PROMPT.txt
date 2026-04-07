@@ -1,0 +1,65 @@
+================================================================================
+CURSOR IMAGE TOOL — THUMBNAIL FOR THIS VIDEO (MICRON / MEMORY / BEAR MARKET)
+================================================================================
+Story: Micron bear market + memory cycle + “cheapest in the S&P 500” valuation angle.
+
+HOW TO USE
+1. Open Cursor’s image generator.
+2. Paste ONE block below (start at “PROMPT START” through “PROMPT END”).
+3. Request aspect ratio 16:9 if the tool offers it (e.g. 1920×1080 or “widescreen”).
+4. Save the result in THIS folder as:  thumbnail_cursor_stunning.png
+5. Optional: prepend to your MP4:
+     python scripts/render_manual_cursor_video.py render ... ^
+       --thumbnail-intro cursor_video_work_micron_mw/thumbnail_cursor_stunning.png
+   Or merge with the scripted engagement overlay:
+     python scripts/generate_engagement_thumbnail.py --work-dir cursor_video_work_micron_mw
+   (Regenerate engagement PNG if you want text/logo on top of the new art.)
+
+RULES (same as scene stills)
+- No company logos, no watermarks, no readable headlines, tickers, dates, or “MICRON” text in-frame.
+- Any numbers or labels must be blurred, abstract, or illegible smears only.
+- Finance / semiconductors / markets context only — no unrelated fantasy characters.
+
+================================================================================
+OPTION A — HERO (RECOMMENDED): “BEAR MADE OF MEMORY” + BARGAIN GLOW
+================================================================================
+PROMPT START
+
+Ultra-premium editorial thumbnail for a finance video, 16:9. Cinematic 3D-meets-photography hybrid, NOT a screenshot. Dramatic single focal idea: a massive abstract bear silhouette (animal shape, silhouette only) filled with glowing memory-chip circuitry — DRAM module outlines, BGA grids, wafer concentric rings — all as abstract geometric light trails in electric cyan, ice blue, and molten amber against a void-like deep navy (#0a1020) background. One sharp rim-light edge on the bear so it reads at small size. Lower third of frame: a subtle “valuation floor” visual — a single horizontal luminous bar sitting lower than several faint, taller ghost bars behind it (peer comparison metaphor; no labels, no numbers legible). Volumetric fog, subtle film grain, specular highlights on metal-glass surfaces. Mood: urgent, institutional, “Bloomberg terminal meets Apple keynote.” High contrast for mobile feeds. Negative space top-right for optional UI. No text, no logos, no tickers.
+
+PROMPT END
+
+================================================================================
+OPTION B — MAXIMAL CREATIVE: “WAFER ECLIPSE” + DOWNWARD VELOCITY
+================================================================================
+PROMPT START
+
+Stunning 16:9 thumbnail, hyper-polished macro CGI + photography. A giant silicon wafer disc dominates the frame, edge-lit with cold white and bruised purple rim light; a circular “eclipse” shadow crosses the wafer center suggesting a down-cycle. Streaks of downward motion — abstract light trails like falling price ribbons (no numbers) — carve through the scene. Background: infinite dark trading-floor depth suggested by soft bokeh rectangles (screens with illegible glow only). Accent color: one aggressive orange-red arc (danger / drawdown) that does not touch any readable text. Style: Ridley Scott tech-ad meets financial Times supplement. Eye-catching, poster-like composition, rule of thirds, hero object sharp, background soft. No logos, no watermarks, no legible words.
+
+PROMPT END
+
+================================================================================
+OPTION C — CLEAN & BOLD: “CHEAPEST RUNG” ABSTRACT LADDER
+================================================================================
+PROMPT START
+
+Minimalist but high-impact 16:9 finance thumbnail. Isometric abstract “S&P ladder” made of frosted glass tiers floating in dark space; the lowest glowing tier pulses warm gold-green (“value”) while upper tiers are cooler dimmer glass (peers). Floating above: a stylized memory chip monolith (no brand marks) with a thin bear-claw scratch texture across one corner — symbolic only, not gory. Lighting: studio three-point, caustics on glass, deep shadows. Apple-level productviz cleanliness. Must read clearly at YouTube small thumbnail size. No text, no tickers, no logos, no readable data.
+
+PROMPT END
+
+================================================================================
+OPTION D — PHOTO-REAL EDITORIAL (SUBTLE, TRUSTWORTHY)
+================================================================================
+PROMPT START
+
+Photoreal editorial still, 16:9, National Geographic meets WSJ weekend. Tight shot of hands in lint-free gloves hovering over a tray of unlabeled memory modules in a sterile lab bench; shallow depth of field; single dramatic sidelight; mood somber, bear-market blue-gray grade with one warm accent bounce. Background hints at cleanroom blur. Emotional beat: caution, cycle turn, scrutiny. Absolutely no logos, no ID badges legible, no screen text readable. High resolution, tactile detail, premium documentary feel.
+
+PROMPT END
+
+================================================================================
+AFTER YOU EXPORT
+- Prefer PNG.
+- If the image is not 16:9, crop to 16:9 centered before upload.
+- For maximum pop on Facebook/YouTube, slightly raise contrast in any editor if needed.
+
+================================================================================

@@ -1,0 +1,24 @@
+{
+  "language": "en",
+  "segments": [
+    {
+      "id": 0,
+      "start": 0.2,
+      "end": 4.8,
+      "text": "Markets watch funding votes and airport strain as shutdown risk lingers.",
+      "words": [
+        {"word": "Markets", "start": 0.2, "end": 0.65},
+        {"word": "watch", "start": 0.65, "end": 0.95},
+        {"word": "funding", "start": 0.95, "end": 1.35},
+        {"word": "votes", "start": 1.35, "end": 1.75},
+        {"word": "and", "start": 1.75, "end": 1.9},
+        {"word": "airport", "start": 1.9, "end": 2.35},
+        {"word": "strain", "start": 2.35, "end": 2.85},
+        {"word": "as", "start": 2.85, "end": 3.0},
+        {"word": "shutdown", "start": 3.0, "end": 3.55},
+        {"word": "risk", "start": 3.55, "end": 3.95},
+        {"word": "lingers.", "start": 3.95, "end": 4.8}
+      ]
+    }
+  ]
+}

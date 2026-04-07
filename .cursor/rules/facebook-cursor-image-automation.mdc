@@ -1,0 +1,22 @@
+---
+description: Scheduled or manual agent — generate cursor_post_image.png from CURSOR_POST_IMAGE_PROMPT.txt (cursor_only pipeline)
+alwaysApply: true
+---
+
+# Facebook Cursor-only post image
+
+This repo **locks** Facebook post stills to the Cursor image tool in **`config.py`** (`IMAGE_GENERATION_MODE` cannot switch to Z-Image; **no** PIL/API placeholders). The daemon writes **`CURSOR_POST_IMAGE_PROMPT.txt`** and waits for **`cursor_post_image.png`** (see the exact path inside the prompt file).
+
+**Do not** add scripted image generation, Z-Image calls, or placeholder bitmaps for this pipeline.
+
+**Hands-free:** `run_continuous_image_posts_scheduled.cmd` starts `scripts/cursor_inbound_auto_bridge.py` (Background Agents API +/or opening the prompt in Cursor). See `AGENTS.md`.
+
+When a **Background Agent**, **Automation**, or the user asks to refresh the post still:
+
+1. Read **`CURSOR_POST_IMAGE_PROMPT.txt`** end-to-end.
+2. Use the Cursor **image** tool to generate **one** **4:5** vertical photoreal still per the "Image prompt" section.
+3. Respect **scene-only** instructions when present (no on-image headline / chyron if the bundle says so).
+4. Save to the path under *Save the file to this exact path* (usually repo root **`cursor_post_image.png`**).
+
+Full workflow and Automation setup notes: **`AGENTS.md`**.  
+Copy-paste block for the Automations "instructions" field: **`scripts/cursor_automation_agent_instructions.txt`**.

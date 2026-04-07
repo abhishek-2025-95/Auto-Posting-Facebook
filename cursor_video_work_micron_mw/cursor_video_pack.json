@@ -1,0 +1,87 @@
+{
+  "article": {
+    "title": "Micron's stock falls into a bear market — and it's now the cheapest in the S&P 500",
+    "summary": "Micron Technology has slid into bear-market territory off its highs as traders weigh the memory cycle, valuation versus S&P 500 peers, and earnings expectations. Coverage highlights the stock screening cheaper on forward metrics than many large-cap index names in the semiconductor space.",
+    "description": "Micron Technology has slid into bear-market territory off its highs as traders weigh the memory cycle, valuation versus S&P 500 peers, and earnings expectations. Coverage highlights the stock screening cheaper on forward metrics than many large-cap index names in the semiconductor space.",
+    "url": "https://www.marketwatch.com/story/microns-stock-falls-into-a-bear-market-and-its-now-the-cheapest-in-the-s-p-500-f90d9114",
+    "source": "MarketWatch"
+  },
+  "render_plan": {
+    "branding": {
+      "breaking_news": true,
+      "ai_generated": true,
+      "unseen_economy_logo": true
+    },
+    "subtitles_mode": "full_summary"
+  },
+  "story_pack": {
+    "duration_seconds": 18,
+    "scene_count": 5,
+    "scenes": [
+      {
+        "index": 0,
+        "role": "hook",
+        "prompt_summary": "Lead with the headline and why it matters for finance viewers right now. Story focus: Micron's stock falls into a bear market — and it's now the cheapest in the S&P 500 — Micron Technology has slid into bear-market territory off its highs as traders weigh the memory cycle, valuation versus S&P 500 peers, and earnings expectations. Coverage highlights the stock screening cheaper on forward metrics than many large-cap index names in the semiconductor space."
+      },
+      {
+        "index": 1,
+        "role": "context",
+        "prompt_summary": "Set the entities and backdrop: firms, regulators, instruments, or region. Story focus: Micron's stock falls into a bear market — and it's now the cheapest in the S&P 500 — Micron Technology has slid into bear-market territory off its highs as traders weigh the memory cycle, valuation versus S&P 500 peers, and earnings expectations. Coverage highlights the stock screening cheaper on forward metrics than many large-cap index names in the semiconductor space."
+      },
+      {
+        "index": 2,
+        "role": "catalyst",
+        "prompt_summary": "Isolate the concrete trigger: data print, policy decision, filing, or guidance. Story focus: Micron's stock falls into a bear market — and it's now the cheapest in the S&P 500 — Micron Technology has slid into bear-market territory off its highs as traders weigh the memory cycle, valuation versus S&P 500 peers, and earnings expectations. Coverage highlights the stock screening cheaper on forward metrics than many large-cap index names in the semiconductor space."
+      },
+      {
+        "index": 3,
+        "role": "reaction",
+        "prompt_summary": "Describe how prices, spreads, or consensus shifted on the news. Story focus: Micron's stock falls into a bear market — and it's now the cheapest in the S&P 500 — Micron Technology has slid into bear-market territory off its highs as traders weigh the memory cycle, valuation versus S&P 500 peers, and earnings expectations. Coverage highlights the stock screening cheaper on forward metrics than many large-cap index names in the semiconductor space."
+      },
+      {
+        "index": 4,
+        "role": "outlook",
+        "prompt_summary": "End with the next catalyst, risk, or level to watch for this thread. Story focus: Micron's stock falls into a bear market — and it's now the cheapest in the S&P 500 — Micron Technology has slid into bear-market territory off its highs as traders weigh the memory cycle, valuation versus S&P 500 peers, and earnings expectations. Coverage highlights the stock screening cheaper on forward metrics than many large-cap index names in the semiconductor space."
+      }
+    ],
+    "subtitle_text": "Micron's stock falls into a bear market — and it's now the cheapest in the S&P 500\n\nMicron Technology has slid into bear-market territory off its highs as traders weigh the memory cycle, valuation versus S&P 500 peers, and earnings expectations. Coverage highlights the stock screening cheaper on forward metrics than many large-cap index names in the semiconductor space."
+  },
+  "cursor_prompts": [
+    {
+      "scene_index": 0,
+      "role": "hook",
+      "continuity": "First scene: establish the same single finance-news event and visual language; all following scenes continue this one story thread.",
+      "visual_domain": "memory_semiconductor",
+      "prompt": "Professional finance-news editorial still: institutions, data, policy, markets, or macro context only. Avoid unrelated fantasy, memes, or decorative clutter. No company logos, no watermarks, no legible headlines, tickers, or dates in-frame — viewer context comes from video subtitles/overlays. Concrete still-safe visuals: DRAM module and DIMM-slot silhouettes (no labels); Ball-grid and memory-package outlines; wafer sheen and soft photolithography streaks; clean-room haze with gantry and glove-port shapes (no logos); commodity memory pricing as abstract heat map / liquidity mesh (any glyphs or numerals smeared and unreadable only). Scene beat (hook): immediate headline gravity — memory-sector stress and downward pressure; lean on DRAM/DIMM silhouettes and bearish light. Scene 0 (hook): center the story on \"Micron's stock falls into a bear market — and it's now the cheapest in the S&P 500 Micron Technology has slid into bear-market territory off its highs as traders weigh the memory cycle, valuation versus S&P 500 peers, and earnings expectations. Coverage highlights the stock screening cheaper on forward metrics than many large-cap index names in the semiconductor space.\". Lead with the headline and why it matters for finance viewers right now. Story focus: Micron's stock falls into a bear market — and it's now the cheapest in the S&P 500 — Micron Technology has slid into bear-market territory off its highs as traders weigh the memory cycle, valuation versus S&P 500 peers, and earnings expectations. Coverage highlights the stock screening cheaper on forward metrics than many large-cap index names in the semiconductor space."
+    },
+    {
+      "scene_index": 1,
+      "role": "context",
+      "continuity": "Continues the same news story from the previous scene (scene 0): keep setting, entities, and tone aligned—only advance the narrative beat.",
+      "visual_domain": "memory_semiconductor",
+      "prompt": "Professional finance-news editorial still: institutions, data, policy, markets, or macro context only. Avoid unrelated fantasy, memes, or decorative clutter. No company logos, no watermarks, no legible headlines, tickers, or dates in-frame — viewer context comes from video subtitles/overlays. Concrete still-safe visuals: DRAM module and DIMM-slot silhouettes (no labels); Ball-grid and memory-package outlines; wafer sheen and soft photolithography streaks; clean-room haze with gantry and glove-port shapes (no logos); commodity memory pricing as abstract heat map / liquidity mesh (any glyphs or numerals smeared and unreadable only). Scene beat (context): sector backdrop — fabs, long-haul supply lanes, large-cap peer grid as abstract glass layers (no tickers legible). Scene 1 (context): center the story on \"Micron's stock falls into a bear market — and it's now the cheapest in the S&P 500 Micron Technology has slid into bear-market territory off its highs as traders weigh the memory cycle, valuation versus S&P 500 peers, and earnings expectations. Coverage highlights the stock screening cheaper on forward metrics than many large-cap index names in the semiconductor space.\". Set the entities and backdrop: firms, regulators, instruments, or region. Story focus: Micron's stock falls into a bear market — and it's now the cheapest in the S&P 500 — Micron Technology has slid into bear-market territory off its highs as traders weigh the memory cycle, valuation versus S&P 500 peers, and earnings expectations. Coverage highlights the stock screening cheaper on forward metrics than many large-cap index names in the semiconductor space."
+    },
+    {
+      "scene_index": 2,
+      "role": "catalyst",
+      "continuity": "Continues the same news story from the previous scene (scene 1): keep setting, entities, and tone aligned—only advance the narrative beat.",
+      "visual_domain": "memory_semiconductor",
+      "prompt": "Professional finance-news editorial still: institutions, data, policy, markets, or macro context only. Avoid unrelated fantasy, memes, or decorative clutter. No company logos, no watermarks, no legible headlines, tickers, or dates in-frame — viewer context comes from video subtitles/overlays. Concrete still-safe visuals: DRAM module and DIMM-slot silhouettes (no labels); Ball-grid and memory-package outlines; wafer sheen and soft photolithography streaks; clean-room haze with gantry and glove-port shapes (no logos); commodity memory pricing as abstract heat map / liquidity mesh (any glyphs or numerals smeared and unreadable only). Scene beat (catalyst): supply glut / inventory-cycle metaphor — stacked pallet masses, warehouse haze, channel pressure, dock queues (no brand crates or readable shipping text). Scene 2 (catalyst): center the story on \"Micron's stock falls into a bear market — and it's now the cheapest in the S&P 500 Micron Technology has slid into bear-market territory off its highs as traders weigh the memory cycle, valuation versus S&P 500 peers, and earnings expectations. Coverage highlights the stock screening cheaper on forward metrics than many large-cap index names in the semiconductor space.\". Isolate the concrete trigger: data print, policy decision, filing, or guidance. Story focus: Micron's stock falls into a bear market — and it's now the cheapest in the S&P 500 — Micron Technology has slid into bear-market territory off its highs as traders weigh the memory cycle, valuation versus S&P 500 peers, and earnings expectations. Coverage highlights the stock screening cheaper on forward metrics than many large-cap index names in the semiconductor space."
+    },
+    {
+      "scene_index": 3,
+      "role": "reaction",
+      "continuity": "Continues the same news story from the previous scene (scene 2): keep setting, entities, and tone aligned—only advance the narrative beat.",
+      "visual_domain": "memory_semiconductor",
+      "prompt": "Professional finance-news editorial still: institutions, data, policy, markets, or macro context only. Avoid unrelated fantasy, memes, or decorative clutter. No company logos, no watermarks, no legible headlines, tickers, or dates in-frame — viewer context comes from video subtitles/overlays. Concrete still-safe visuals: DRAM module and DIMM-slot silhouettes (no labels); Ball-grid and memory-package outlines; wafer sheen and soft photolithography streaks; clean-room haze with gantry and glove-port shapes (no logos); commodity memory pricing as abstract heat map / liquidity mesh (any glyphs or numerals smeared and unreadable only). Scene beat (reaction): index and peer repricing — S&P-linked valuation strip as forward-multiple ribbons and dispersion fans (numerals deliberately unreadable). Scene 3 (reaction): center the story on \"Micron's stock falls into a bear market — and it's now the cheapest in the S&P 500 Micron Technology has slid into bear-market territory off its highs as traders weigh the memory cycle, valuation versus S&P 500 peers, and earnings expectations. Coverage highlights the stock screening cheaper on forward metrics than many large-cap index names in the semiconductor space.\". Describe how prices, spreads, or consensus shifted on the news. Story focus: Micron's stock falls into a bear market — and it's now the cheapest in the S&P 500 — Micron Technology has slid into bear-market territory off its highs as traders weigh the memory cycle, valuation versus S&P 500 peers, and earnings expectations. Coverage highlights the stock screening cheaper on forward metrics than many large-cap index names in the semiconductor space."
+    },
+    {
+      "scene_index": 4,
+      "role": "outlook",
+      "continuity": "Continues the same news story from the previous scene (scene 3): keep setting, entities, and tone aligned—only advance the narrative beat.",
+      "visual_domain": "memory_semiconductor",
+      "prompt": "Professional finance-news editorial still: institutions, data, policy, markets, or macro context only. Avoid unrelated fantasy, memes, or decorative clutter. No company logos, no watermarks, no legible headlines, tickers, or dates in-frame — viewer context comes from video subtitles/overlays. Concrete still-safe visuals: DRAM module and DIMM-slot silhouettes (no labels); Ball-grid and memory-package outlines; wafer sheen and soft photolithography streaks; clean-room haze with gantry and glove-port shapes (no logos); commodity memory pricing as abstract heat map / liquidity mesh (any glyphs or numerals smeared and unreadable only). Scene beat (outlook): next catalyst — earnings and guidance imagined as calendar blocks and runway bands (all dates and digits blurred or illegible); soft glow on the approaching decision window. Scene 4 (outlook): center the story on \"Micron's stock falls into a bear market — and it's now the cheapest in the S&P 500 Micron Technology has slid into bear-market territory off its highs as traders weigh the memory cycle, valuation versus S&P 500 peers, and earnings expectations. Coverage highlights the stock screening cheaper on forward metrics than many large-cap index names in the semiconductor space.\". End with the next catalyst, risk, or level to watch for this thread. Story focus: Micron's stock falls into a bear market — and it's now the cheapest in the S&P 500 — Micron Technology has slid into bear-market territory off its highs as traders weigh the memory cycle, valuation versus S&P 500 peers, and earnings expectations. Coverage highlights the stock screening cheaper on forward metrics than many large-cap index names in the semiconductor space."
+    }
+  ],
+  "images_policy": "cursor_image_tool_only"
+}

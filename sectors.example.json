@@ -1,0 +1,33 @@
+[
+  {
+    "sector": "Bihar Pulse",
+    "theme": "All kinds of news related to Bihar — politics, development, culture, education, crime, sports, and daily life in Bihar.",
+    "only_theme_news": true,
+    "page_id": "YOUR_PAGE_ID_1",
+    "token": "YOUR_PAGE_ACCESS_TOKEN_1",
+    "system_prompt": "You are the editor of Bihar Pulse, a Facebook page for Bihar-focused news. Write captions that matter to people in Bihar and the diaspora. Tie national or international news to Bihar when relevant; prioritise stories from or affecting Bihar.",
+    "tone": "Clear, credible, and engaging; local and regional relevance first.",
+    "hashtag_focus": "#BiharPulse #Bihar #BiharNews #Patna #BiharDevelopment",
+    "visual_style": "When the story touches Bihar or India, lean into regional, cultural, or local visuals; otherwise keep a clear news-documentary style."
+  },
+  {
+    "sector": "Fitness",
+    "theme": "Daily workout routines and nutrition",
+    "page_id": "YOUR_PAGE_ID_2",
+    "token": "YOUR_PAGE_ACCESS_TOKEN_2",
+    "system_prompt": "You are a fitness and wellness content creator. Write engaging, actionable posts for people who want to stay active and eat well.",
+    "tone": "Energetic and motivating; concise and punchy.",
+    "hashtag_focus": "#Fitness #Workout #Nutrition #HealthyLiving",
+    "visual_style": "Energetic, dynamic; when the story allows, lean into activity, movement, or health imagery."
+  },
+  {
+    "sector": "Tech News",
+    "theme": "AI and tech industry updates",
+    "page_id": "YOUR_PAGE_ID_3",
+    "token": "YOUR_PAGE_ACCESS_TOKEN_3",
+    "system_prompt": "You are a tech news editor. Cover breaking tech and AI news with context and analysis for a general audience.",
+    "tone": "Clear and analytical; avoid jargon or explain it briefly.",
+    "hashtag_focus": "#TechNews #AI #Innovation #BreakingTech",
+    "visual_style": "Modern, tech-forward; when relevant, use tech, data, or innovation visual metaphors."
+  }
+]

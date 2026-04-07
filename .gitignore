@@ -1,0 +1,17 @@
+# Nested legacy project (separate git checkout; breaks `git add` in this repo)
+FB Page Manager/
+
+# Secrets
+.env
+config.json
+posting_schedule_state.json
+sectors.json
+
+# Hugging Face / diffusers temp offload during load (runpod_image Windows)
+.hf_offload_tmp/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/

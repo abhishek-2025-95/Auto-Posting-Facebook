@@ -1,0 +1,33 @@
+{
+  "headline": "System Rigged? Your Future Sold.",
+  "subtext": "The opulent few hoard power while the many struggle for survival. Expose the truth.",
+  "theme": "Stolen Futures",
+  "style_description": "A gritty, neo-noir aesthetic with deep shadows, extreme contrast, and a desaturated, oppressive color palette punctuated by stark, unsettling light. The mood is desperate, subtly rage-inducing, and hints at an unseen, overwhelming system of control and exploitation.",
+  "primary_color_hex": "#E74C3C",
+  "visual_concept": "A vast, sprawling cityscape viewed from a low, unsettling angle. Dominating the frame is a colossal, sleek, almost alien-looking corporate skyscraper, its apex disappearing into stormy, ominous clouds. Its foundation isn't bedrock, but a network of crumbling, indistinguishable residential blocks and dark, narrow alleys where indistinct figures toil. Subtle, almost invisible golden threads or chains extend from the skyscraper's upper floors, subtly tethering and controlling the smaller structures below, implying a parasitic relationship.",
+  "background_elements": [
+    "Monolithic corporate skyscraper",
+    "Crumbling residential blocks",
+    "Rain-slicked streets",
+    "Faint corporate logos etched into clouds",
+    "Silhouetted struggling figures",
+    "Subtle golden chains/threads",
+    "Broken 'For Sale' signs"
+  ],
+  "color_palette": [
+    "#2C3E50 (Deep Slate)",
+    "#7F8C8D (Desaturated Ash)",
+    "#34495E (Midnight Blue)",
+    "#95A5A6 (Stone Gray)",
+    "#BDC3C7 (Pale Concrete)",
+    "#F1C40F (Sickly Gold - accents)",
+    "#C0392B (Rust Red - accents)"
+  ],
+  "mood_keywords": [
+    "Enraged",
+    "Oppressive",
+    "Urgent",
+    "Despairing",
+    "Incendiary"
+  ]
+}

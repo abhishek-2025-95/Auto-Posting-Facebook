@@ -1,0 +1,26 @@
+/* Dynamic Neon Pop — default kinetic subtitle look (pycaps word + .word-being-narrated) */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Inter:wght@900&display=swap");
+
+.word {
+  font-family: "Montserrat", "Inter", system-ui, -apple-system, sans-serif;
+  font-weight: 900;
+  font-size: 17px;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding: 3px 6px;
+  text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000,
+    0px 2px 8px rgba(0, 0, 0, 0.85);
+}
+
+.word-being-narrated {
+  color: #00ff00;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 7px;
+  text-shadow: 0 0 10px #00ff00;
+  transform: scale(1.09) rotate(-2deg);
+  transition: transform 0.1s ease-out;
+}

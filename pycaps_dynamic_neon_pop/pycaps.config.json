@@ -1,0 +1,36 @@
+{
+  "css": "styles.css",
+  "layout": {
+    "max_width_ratio": 0.75,
+    "max_number_of_lines": 2,
+    "min_number_of_lines": 1,
+    "vertical_align": {
+      "align": "bottom",
+      "offset": 0.0
+    }
+  },
+  "splitters": [
+    { "type": "split_into_sentences" },
+    {
+      "type": "limit_by_chars",
+      "min_chars": 15,
+      "max_chars": 20
+    }
+  ],
+  "effects": [
+    {
+      "type": "remove_punctuation_marks",
+      "punctuation_marks": ["."],
+      "exception_marks": ["..."]
+    }
+  ],
+  "animations": [
+    {
+      "type": "pop_in",
+      "duration": 0.2,
+      "delay": 0.0,
+      "when": "narration-starts",
+      "what": "word"
+    }
+  ]
+}

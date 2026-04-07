@@ -1,0 +1,2 @@
+C:\Users\user\Documents\Auto Posting Facebook\.venv\Lib\site-packages\transformers\modeling_utils.py:1984: FutureWarning: torch._dynamo.allow_in_graph is deprecated and will be removed in a future version. Use torch._dynamo.nonstrict_trace instead.
+  @torch._dynamo.allow_in_graph

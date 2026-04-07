@@ -1,0 +1,42 @@
+Each image must teach ONE beat from article.json narration (~10s of audio per still). Save as scene0.png … scene7.png.
+Style: consistent 16:9 cinematic finance explainer; no fake statistics; no corporate logos; minimal generic labels only.
+
+=== scene0.png — 1 — Weakest demand in years ===
+News beat (must match voiceover): Markets focus on Treasury auctions seeing some of the weakest bidder demand in years.
+
+16:9 landscape cinematic news explainer. Visual concept: U.S. Treasury auction stress—sparse or hesitant bidders metaphor (few raised paddles, thin crowd), Treasury building or bond paperwork in background, muted red alert accents suggesting concern. Photoreal broadcast documentary. On-image optional short generic label only: 'Auction demand' — no fake statistics, no stock tickers, no corporate logos. Must communicate: Treasury sales are struggling to attract strong interest.
+
+=== scene1.png — 2 — How cash is raised ===
+News beat (must match voiceover): Washington funds the government by auctioning bills, notes, and bonds to investors on a schedule.
+
+16:9 landscape clean editorial infographic. Step diagram: U.S. Treasury at center selling three layers labeled only as generic words 'Bills' 'Notes' 'Bonds' (no fine print). Arrows from Treasury to investors and institutions exchanging cash for securities. Scheduled calendar motif. Flat modern navy, white, gold. Educational explainer style like NYT or Economist. Must teach: scheduled Treasury auctions raise cash.
+
+=== scene2.png — 3 — Poor auction → higher yields → ripple ===
+News beat (must match voiceover): Weak auctions can force higher yields to place debt; that ripples through the whole interest-rate world.
+
+16:9 landscape abstract finance visualization. Left: weakening auction hammer or fading bid volume; center: Treasury coupon edge or yield arrow bending upward; right: concentric ripples washing over abstract icons for mortgage, corporate loan, and money-market (generic silhouettes). Cool teal and amber. No readable percentage numbers. Must show causal chain: weak demand → higher yields → broader rate impact.
+
+=== scene3.png — 4 — War fear → safety & duration ===
+News beat (must match voiceover): Geopolitical stress pushes investors toward safety and makes them pickier about duration and credit risk.
+
+16:9 landscape split educational illustration. Left: globe Middle East region, serious diplomatic tone, no weapons or gore. Right: investor choosing between long-dated risky paper versus short safe Treasury stack with protective glow. Middle ground: hourglass or timeline hinting 'duration'. Must explain: fear shifts portfolios toward quality and careful maturity choices.
+
+=== scene4.png — 5 — Funding cost pass-through ===
+News beat (must match voiceover): If government borrowing costs rise, mortgages, corporate credit, and deficit financing all feel it.
+
+16:9 landscape tri-panel explainer graphic. Panel A: single-family home + subtle mortgage deed; Panel B: office towers + generic corporate bond; Panel C: Capitol or ledger stack symbolizing public debt. Single upward cost arrow linking all three to a Treasury rate pillar. Neutral documentary palette. Must show: Treasury yields transmit to housing, business borrowing, and fiscal bills.
+
+=== scene5.png — 6 — Risk-free rate repricing ===
+News beat (must match voiceover): Equities, credit spreads, and the dollar move as traders reprice the risk-free rate and liquidity.
+
+16:9 landscape dark professional finance montage. Three zones: abstract equity price path (no company names), two diverging lines suggesting widening credit spreads, stylized dollar globe watermark. Small caption space with only the words 'Risk-free rate' if text is used. Terminal aesthetic. Must convey: stocks, spreads, FX react when Treasury benchmarks shift.
+
+=== scene6.png — 7 — Oil, inflation, fiscal pressure ===
+News beat (must match voiceover): Energy shocks add inflation complexity while big borrowing needs keep policymakers vigilant.
+
+16:9 landscape cinematic blend. Oil pumpjack silhouette at sunset merging into dual stress visuals: abstract rising cost thermometer (no CPI digits) and heavy Treasury issuance paperwork stack with small central-bank dome silhouette in distance. Serious macro tone. Must pair: commodity inflation risk + heavy Treasury supply + policy watchfulness.
+
+=== scene7.png — 8 — What to watch next ===
+News beat (must match voiceover): Next catalysts: Treasury auctions, yield moves, Fed signals, war and oil headlines—volatility until clarity.
+
+16:9 landscape forward-looking news checklist graphic. Soft background: horizon at dawn. Foreground: five simple icons with tiny generic labels only—Auction, Yields, Fed, Oil, Headlines. Optional volatility lightning subtle in sky. Premium broadcast outro. Must read as viewer takeaway / roadmap for what matters next.

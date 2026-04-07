@@ -1,0 +1,12 @@
+You are running inside the "Auto Posting Facebook" repo for a scheduled Cursor Automation.
+
+Trigger: Prefer **on change** to `CURSOR_POST_IMAGE_PROMPT.txt`, or a short interval (e.g. every 2–5 minutes) while the posting daemon is running, so each new bundle gets an image before `CURSOR_INBOUND_MAX_WAIT_SECONDS` (often 600s) expires.
+
+TASK (cursor_only — no code image fallbacks):
+1. Read the file CURSOR_POST_IMAGE_PROMPT.txt from the repository root (open it fully).
+2. Follow the bundle: use the "Image prompt" section with the Cursor image generation tool to create ONE photoreal breaking-news still in strict 4:5 vertical portrait aspect ratio.
+3. If the bundle says scene-only / no headline / no chyron: do NOT render headline text, lower-thirds, tickers, or broadcast banners on the image.
+4. Save the generated image to the exact path shown under "Save the file to this exact path" in that file. If that line points to cursor_post_image.png in the repo root, overwrite that file.
+5. Use PNG or JPEG as the bundle allows. Do not change other project files unless the prompt file explicitly requires it.
+
+Stop after the image file is saved successfully. Do not run Z-Image, diffusers, or external GPU image scripts.

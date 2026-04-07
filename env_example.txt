@@ -1,0 +1,14 @@
+# OpenAI API Key (required for content pipeline)
+OPENAI_API_KEY=your_openai_api_key_here
+
+# Facebook Page Configuration
+PAGE_ID=758737463999000
+PAGE_ACCESS_TOKEN=your_page_access_token_here
+GRAPH_API_VERSION=v21.0
+REQUEST_TIMEOUT_SECONDS=30
+MAX_RETRIES=5
+RETRY_BACKOFF_SECONDS=2
+
+
+
+

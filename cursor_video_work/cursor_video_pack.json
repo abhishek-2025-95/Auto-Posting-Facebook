@@ -1,0 +1,82 @@
+{
+  "article": {
+    "title": "Ulta Beauty stock drops as company reports mixed earnings, gives 2026 guidance",
+    "summary": "Ulta Beauty reported fiscal fourth-quarter earnings Thursday that beat Wall Street revenue expectations but missed on earnings per share.",
+    "description": "Ulta Beauty reported fiscal fourth-quarter earnings Thursday that beat Wall Street revenue expectations but missed on earnings per share.",
+    "url": "https://www.cnbc.com/2026/03/12/ulta-beauty-ulta-q4-earnings-2025.html",
+    "source": "CNBC Market News"
+  },
+  "render_plan": {
+    "branding": {
+      "breaking_news": true,
+      "ai_generated": true,
+      "unseen_economy_logo": true
+    },
+    "subtitles_mode": "full_summary"
+  },
+  "story_pack": {
+    "duration_seconds": 18,
+    "scene_count": 5,
+    "scenes": [
+      {
+        "index": 0,
+        "role": "hook",
+        "prompt_summary": "Lead with the headline and why it matters for finance viewers right now. Story focus: Ulta Beauty stock drops as company reports mixed earnings, gives 2026 guidance — Ulta Beauty reported fiscal fourth-quarter earnings Thursday that beat Wall Street revenue expectations but missed on earnings per share."
+      },
+      {
+        "index": 1,
+        "role": "context",
+        "prompt_summary": "Set the entities and backdrop: firms, regulators, instruments, or region. Story focus: Ulta Beauty stock drops as company reports mixed earnings, gives 2026 guidance — Ulta Beauty reported fiscal fourth-quarter earnings Thursday that beat Wall Street revenue expectations but missed on earnings per share."
+      },
+      {
+        "index": 2,
+        "role": "catalyst",
+        "prompt_summary": "Isolate the concrete trigger: data print, policy decision, filing, or guidance. Story focus: Ulta Beauty stock drops as company reports mixed earnings, gives 2026 guidance — Ulta Beauty reported fiscal fourth-quarter earnings Thursday that beat Wall Street revenue expectations but missed on earnings per share."
+      },
+      {
+        "index": 3,
+        "role": "reaction",
+        "prompt_summary": "Describe how prices, spreads, or consensus shifted on the news. Story focus: Ulta Beauty stock drops as company reports mixed earnings, gives 2026 guidance — Ulta Beauty reported fiscal fourth-quarter earnings Thursday that beat Wall Street revenue expectations but missed on earnings per share."
+      },
+      {
+        "index": 4,
+        "role": "outlook",
+        "prompt_summary": "End with the next catalyst, risk, or level to watch for this thread. Story focus: Ulta Beauty stock drops as company reports mixed earnings, gives 2026 guidance — Ulta Beauty reported fiscal fourth-quarter earnings Thursday that beat Wall Street revenue expectations but missed on earnings per share."
+      }
+    ],
+    "subtitle_text": "Ulta Beauty stock drops as company reports mixed earnings, gives 2026 guidance Ulta Beauty reported fiscal fourth-quarter earnings Thursday that beat Wall Street revenue expectations but missed on earnings per share."
+  },
+  "cursor_prompts": [
+    {
+      "scene_index": 0,
+      "role": "hook",
+      "continuity": "First scene: establish the same single finance-news event and visual language; all following scenes continue this one story thread.",
+      "prompt": "Professional finance-news editorial still: institutions, data, policy, markets, or macro context only. Avoid unrelated fantasy, memes, or decorative clutter. Scene 0 (hook): center the story on \"Ulta Beauty stock drops as company reports mixed earnings, gives 2026 guidance Ulta Beauty reported fiscal fourth-quarter earnings Thursday that beat Wall Street revenue expectations but missed on earnings per share.\". Lead with the headline and why it matters for finance viewers right now. Story focus: Ulta Beauty stock drops as company reports mixed earnings, gives 2026 guidance — Ulta Beauty reported fiscal fourth-quarter earnings Thursday that beat Wall Street revenue expectations but missed on earnings per share."
+    },
+    {
+      "scene_index": 1,
+      "role": "context",
+      "continuity": "Continues the same news story from the previous scene (scene 0): keep setting, entities, and tone aligned—only advance the narrative beat.",
+      "prompt": "Professional finance-news editorial still: institutions, data, policy, markets, or macro context only. Avoid unrelated fantasy, memes, or decorative clutter. Scene 1 (context): center the story on \"Ulta Beauty stock drops as company reports mixed earnings, gives 2026 guidance Ulta Beauty reported fiscal fourth-quarter earnings Thursday that beat Wall Street revenue expectations but missed on earnings per share.\". Set the entities and backdrop: firms, regulators, instruments, or region. Story focus: Ulta Beauty stock drops as company reports mixed earnings, gives 2026 guidance — Ulta Beauty reported fiscal fourth-quarter earnings Thursday that beat Wall Street revenue expectations but missed on earnings per share."
+    },
+    {
+      "scene_index": 2,
+      "role": "catalyst",
+      "continuity": "Continues the same news story from the previous scene (scene 1): keep setting, entities, and tone aligned—only advance the narrative beat.",
+      "prompt": "Professional finance-news editorial still: institutions, data, policy, markets, or macro context only. Avoid unrelated fantasy, memes, or decorative clutter. Scene 2 (catalyst): center the story on \"Ulta Beauty stock drops as company reports mixed earnings, gives 2026 guidance Ulta Beauty reported fiscal fourth-quarter earnings Thursday that beat Wall Street revenue expectations but missed on earnings per share.\". Isolate the concrete trigger: data print, policy decision, filing, or guidance. Story focus: Ulta Beauty stock drops as company reports mixed earnings, gives 2026 guidance — Ulta Beauty reported fiscal fourth-quarter earnings Thursday that beat Wall Street revenue expectations but missed on earnings per share."
+    },
+    {
+      "scene_index": 3,
+      "role": "reaction",
+      "continuity": "Continues the same news story from the previous scene (scene 2): keep setting, entities, and tone aligned—only advance the narrative beat.",
+      "prompt": "Professional finance-news editorial still: institutions, data, policy, markets, or macro context only. Avoid unrelated fantasy, memes, or decorative clutter. Scene 3 (reaction): center the story on \"Ulta Beauty stock drops as company reports mixed earnings, gives 2026 guidance Ulta Beauty reported fiscal fourth-quarter earnings Thursday that beat Wall Street revenue expectations but missed on earnings per share.\". Describe how prices, spreads, or consensus shifted on the news. Story focus: Ulta Beauty stock drops as company reports mixed earnings, gives 2026 guidance — Ulta Beauty reported fiscal fourth-quarter earnings Thursday that beat Wall Street revenue expectations but missed on earnings per share."
+    },
+    {
+      "scene_index": 4,
+      "role": "outlook",
+      "continuity": "Continues the same news story from the previous scene (scene 3): keep setting, entities, and tone aligned—only advance the narrative beat.",
+      "prompt": "Professional finance-news editorial still: institutions, data, policy, markets, or macro context only. Avoid unrelated fantasy, memes, or decorative clutter. Scene 4 (outlook): center the story on \"Ulta Beauty stock drops as company reports mixed earnings, gives 2026 guidance Ulta Beauty reported fiscal fourth-quarter earnings Thursday that beat Wall Street revenue expectations but missed on earnings per share.\". End with the next catalyst, risk, or level to watch for this thread. Story focus: Ulta Beauty stock drops as company reports mixed earnings, gives 2026 guidance — Ulta Beauty reported fiscal fourth-quarter earnings Thursday that beat Wall Street revenue expectations but missed on earnings per share."
+    }
+  ],
+  "images_policy": "cursor_image_tool_only"
+}

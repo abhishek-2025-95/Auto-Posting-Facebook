@@ -1,0 +1,16 @@
+=== Use the Cursor chat IMAGE tool to generate ONE still ===
+Strict **4:5 vertical portrait** frame (width:height = 4:5). US viral breaking-news style: photoreal scene that shows the CRUX of the story clearly (who, what, stakes, setting).
+**Scene only (no on-image headline):** photoreal 4:5 breaking-news still. Do **not** render headline text, lower-thirds, chyrons, tickers, or broadcast banners—the article title is typeset afterward with margins that match this aspect ratio.
+**ONE full-bleed photograph** edge to edge; no narrow center strip, blurred side pillars, or split panels.
+No fake network logos; no watermarks. Save/export as PNG or JPEG.
+
+=== Save the file to this exact path (overwrite if needed) ===
+C:\Users\user\Documents\Auto Posting Facebook\cursor_post_image.png
+
+=== Article ===
+Title: Oil prices extend gains as Trump reaffirms Tuesday deadline for bombarding Iran's power plants, bridges
+URL: https://www.cnbc.com/2026/04/07/crude-oil-prices-today-iran-war-strait-hormuz-tuesday-deadline.html
+Summary: Crude prices extended gains after Trump repeated the Tuesday deadline for escalating attacks on Iran's power plants and bridges.
+
+=== Image prompt (paste into Cursor image tool) ===
+Hyperrealistic breaking news scene that conveys the summary of the news: Oil prices extend gains as Trump reaffirms Tuesday deadline for bombarding Iran'.  The scene must convey the summary of the news: Crude prices extended gains after Trump repeated the Tuesday deadline for escalating attacks on Iran's power plants and bridges.. Show the specific event, setting, and mood so a viewer understands what the story is about. The image MUST show the named person(s): Oil, Trump, Tuesday, Iran's, Crude. Depict them in photorealistic, documentary style—realistic human appearance as in real news photographs. The image prominently features the main person(s) concerned—in detailed, context-appropriate setting with dramatic lighting and expression that match the story. Photorealistic, real-photograph style. High contrast, sharp focus, vivid saturated colors, 4:5 vertical portrait (mobile). No text. The central subject is the main person at the center of this news—shown in role-appropriate attire and setting, clear expression and posture, so the crux of the story is obvious. All people must look real: photorealistic, as in real news photography—realistic faces and bodies, not illustrated or cartoon. Integrate these story beats into composition, props, wardrobe, environment, and emotional tone (show the story through action and setting—do not paste the summary as body text): Crude prices extended gains after Trump repeated the Tuesday deadline for escalating attacks on Iran's power plants and bridges. The single image must make the core news event and its implications obvious—specific setting, key action or decision, and human reactions where relevant. Viral USA breaking-news photoreal look; **no headline, chyron, or lower-third text in the image**—title typography is added in post with correct 4:5 margins. No fake TV network logos; no watermarks.
